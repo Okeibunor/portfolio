@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+button{
+    background-color: orange;
+    border: 2px solid orange;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-size: 1.1em;
+}
+
+#logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding:0px 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content:flex-end;
+    padding: 25px 0px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin: auto 20px;
+}
+
+.navbar ul li a{
+    font-size:1.15em;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: orange;
+    transition: all .5s ease-out;
+}
+
+.navbar li:last-child{
+    color: orange;
+    border: 2px solid orange;
+    padding: 10px 20px;
+}
+
+.navbar li:hover {
+    border-bottom: 2px solid orange;
+    padding-bottom: 3px;
+}
+
+.navbar li:last-child:hover{
+    padding-bottom: 10px;
+    background-color: orange;
+}
+
+.navbar li:last-child:hover a:hover{
+    transition: all .5s;
+    color: black;
+}
+
+.head-section{
+    background: linear-gradient(180deg,black,rgb(34, 34, 34) 70.71%);
+    color: white;
+    display: flex;
+    padding-bottom: 15vh;
+}
+
+.head-section .text-section{
+    width: 50%;
+    padding: 50px;
+}
+
+.head-section .image-section{
+    width: 50%;
+    padding: 0px 50px;
+
+}
+.head-section .image-section img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.head-section #hello{
+    color: orange;
+    font-weight: 650;
+}
+
+.head-section h1{
+    font-size: 3.5em;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+}
+
+.head-section p{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+
+
+.head-section #learnmore{
+    background-color: transparent;
+    color: white;
+}
+
+.category-section{
+    margin: auto 15vw;
+    background-color:rgb(34, 34, 34);
+}
+
+.category-section li{
+    list-style-type: none;
+    text-transform: uppercase;
+    border: .5px solid rgb(49, 49, 49);
+    color: white;
+    padding: 15px 50px;
+    width: 100%;
+}
+
+.category-section li.active-title{
+    background-color: orange;
+    border: .5px solid orange;
+    color: black;
+}
+
+.category-section ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-section .body{
+    color: white;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+}
+.category-section .body div{
+    padding: 20px;
+    width: 50%;
+}
+
+.category-section .body img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.category-section .body button{
+    background-color: transparent;
+    color: orange;
+    font-size: 0.8em;
+    transition: all .5s;
+}
+
+.category-section .body button:hover{
+    background-color: orange;
+    color: grey;
+}
+
+.category-section .body button:focus{
+    background-color: rgb(180, 118, 2);
+    color: black;
+    outline: none;
+}
+
+.category-section .body span{
+    color: orange;
+    font-weight: bold;
+}
+
+.slider-section{
+    display: flex;
+    justify-content: flex-start;
+    margin: 9vh 0 5vh 15vw;
+}
+
+.slider-section .slide{
+    width: 25vw;
+    margin-right: 5vw;
+    background-color: rgb(15, 15, 15);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1.5px solid orange;
+}
+.slider-section .slide img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.slider-section .slide div{
+    padding: 20px 15px;
+    color: white;
+}
+
+.slider-section .slide small{
+    color: orange;
+}
+
+.slider-section .slide h2{
+    margin: 2vh auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slider-section .slide p{
+    margin: 3.5vh auto;
+    font-size: 0.75em;
+}
+
+.slider-section .slide button{
+    font-size: 0.8em;
+    background-color: transparent;
+    color: orange;
+}
+
+
+
+
+
+
+
